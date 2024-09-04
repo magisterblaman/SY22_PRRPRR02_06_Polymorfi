@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 namespace SY22_PRRPRR02_06_Polymorfi {
 	internal class Table : Furniture {
 
-		public int numberOfLegs;
-		public string texture;
-		public int numberOfSeats;
+		public int NumberOfLegs;
+		public string Texture;
+		public int NumberOfSeats;
 
 		public Table(string inputColor,
 			double inputWidth,
@@ -19,9 +19,9 @@ namespace SY22_PRRPRR02_06_Polymorfi {
 			string inputTexture,
 			int inputSeats) : base(inputColor, inputWidth, inputHeight, inputDepth) {
 
-			numberOfLegs = inputLegs;
-			texture = inputTexture;
-			numberOfSeats = inputSeats;
+			NumberOfLegs = inputLegs;
+			Texture = inputTexture;
+			NumberOfSeats = inputSeats;
 		}
 
 	}

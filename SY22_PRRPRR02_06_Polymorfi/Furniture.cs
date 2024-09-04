@@ -6,20 +6,20 @@ using System.Threading.Tasks;
 
 namespace SY22_PRRPRR02_06_Polymorfi {
 	internal class Furniture {
-		public string color;
-		public double width;
-		public double height;
-		public double depth;
+		private string _color;
+		protected double _width;
+		protected double _height;
+		protected double _depth;
 
 		public Furniture(string inputColor, 
 			double inputWidth, 
 			double inputHeight, 
 			double inputDepth) {
 
-			color = inputColor;
-			width = inputWidth;
-			height = inputHeight;
-			depth = inputDepth;
+			_color = inputColor;
+			_width = inputWidth;
+			_height = inputHeight;
+			_depth = inputDepth;
 		}
 
 		public virtual void Use() {
